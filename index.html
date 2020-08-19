@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <style>
+      *{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.left-column{
+    height : 530px;
+    width : 100%;
+    background-color: #0E6E84;
+}
+
+.right-column{
+    height: 530px;
+    width : 100%;
+    background-color: #2096A0;
+}
+
+div > h3{
+    
+   font-weight: 700;
+   font-size : 26px;
+    margin-bottom: 0px;
+}
+
+div > p {
+    margin-top : 10px;
+    font-size : 16px;
+    font-weight: 600;
+    
+}
+
+div > small {
+    font-size : 12px;
+    font-weight: 600;
+}
+
+.left-padding {
+    padding-left: 10px;
+}
+
+.blank {
+    height : 130px;
+}
+
+.resume {
+    font-size : 14px;
+    font-weight: 600;
+    color : black;
+    font-style: italic;
+}
+
+.profile-image {
+    height : 100px;
+    width : 100px;
+    border-radius: 50px;
+    border : 10px solid #FFC831;
+    margin-left : 150px;
+    margin-top : 50px;
+}
+
+.solid-circle {
+    height : 20px;
+    width : 20px;
+    border-radius: 10px;
+    background-color:  #FFC831;
+    position : absolute;
+    left : 15px;
+    top : 140px;
+}
+
+.proficiencies{
+    color : #707070;
+}
+
+.card-head {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-info {
+    font-size : 12px;
+    font-weight: 300;
+}
+
+div > h5 {
+    color : #707070;
+    font-size: 18px;
+
+}
+
+h5 + p{
+    color : #707070;
+    font-size: 12px; 
+}
+
+.masai {
+    background-color: #0E6E84;
+    width : 100%;
+    height : 500px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.coding {
+    height : 100px;
+    width : 100px;
+    border-radius: 50px;
+    border : 10px solid #FFC831;
+}
+
+.blue{
+    color: #3BCEC8;
+    
+
+}
+
+.margin {
+    margin-left : 10px;
+    margin-top : 25px;
+}
+
+.yellow{
+   color : #FFC831;
+}
+
+.tech-stack {
+    background-color : #36ADA4;
+    height : 80px;
+    width : 80px;
+    border-radius: 40px;
+}
+
+.margin-left {
+    margin-left: 110px;
+}
+
+.margin-right {
+    margin-right: 100px;
+}
+
+
+    </style>>
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-6 m-0 left-column">
+                <div class="row">
+                    <div class="col-6 m-0">
+                        <div>
+                          <img src = "C:\Users\avin1103\Desktop\Personal\partho - Copy.jpeg" class = "img-fluid profile-image" alt = "profile image"/>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0 padding-left">
+                        <div class = "blank">
+                            <div class = "solid-circle">
+
+                            </div>
+                        </div>
+                        <h3 class="pt-5 text-light">Partha Sarathi</h3>
+                        <h3 class = "text-light">Nayak</h3>
+                        <p>Full Stack Developer</p>
+                        <small>Bangalore, Karnataka, India</small>
+                        <p class = "text-light">I am Partha Sarathi Nayak. I am an aspiring Full Stack Web Developer with a B.Tech degreee specialised in Production Engineering.</p>
+                        <a href="#" class="stretched-link resume">View Full Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 m-0 right-column">
+              <div class = "container margin-top">
+                <div class = "row mb-5">
+                  <div class = "col-4">
+                    <div class = "tech-stack shadow m-auto"></div>
+                    <p class = "text-center text-light">HTML</p>
+                  </div>
+                  <div class = "col-4">
+                    <div class = "tech-stack shadow m-auto"></div>
+                    <p class = "text-center text-light">CSS</p>
+                  </div>
+                  <div class = "col-4">
+                    <div class = "tech-stack shadow m-auto"></div>
+                    <p class = "text-center text-light">JAVASCRIPT</p>
+                  </div>
+                </div>
+                <div class = "row mt-2">
+                  <div class = "col-6">
+                    <div class = "tech-stack shadow margin-left"></div>
+                    <p class = "text-light margin-left">BOOTSTRAP</p>
+                  </div>
+                  <div class = "col-6">
+                    <div class = "tech-stack shadow" style = "margin-left: 30px;"></div>
+                    <p class = "text-light" style = "margin-left: 50px;">REACT</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class = "mt-5 container text-center">
+        <h3 class = "mt-5 proficiencies">Proficiencies</h3>
+        <div class = "container mt-5">
+            <div class="card-deck m-auto text-center">
+                <div class="card border-0">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body proficiencies">
+                    <h5 class="card-title card-head ">Frontend</h5>
+                    <p class="card-text card-info">Thorough knowledge of frontend development</p>
+                  </div>
+                  
+                </div>
+                <div class="card border-0">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body proficiencies">
+                    <h5 class="card-title card-head">Javascript</h5>
+                    <p class="card-text card-info">Knows to write proper code in JavaScript</p>
+                  </div>
+                  
+                </div>
+                <div class="card border-0">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body proficiencies">
+                    <h5 class="card-title card-head">Bootstrap</h5>
+                    <p class="card-text card-info">Can make the application's UI beautiful using Bootstrap</p>
+                  </div>
+                  
+                </div>
+              </div>
+        </div>
+        
+    </div>
+    <div class = "container mt-5">
+        <div class = "row mt-3 ml-3">
+            <div class = "col-8 offset-2 ">
+                <div class="card mb-3 shadow" style="max-width: 540px; ">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="..." class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class = "row mt-3 ml-3">
+            <div class = "col-8 offset-2">
+                <div class="card mb-3 shadow" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="..." class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">The history of Telephones</h5>
+                          <p class="card-text">My first project on the history of telephones using HTML5 and CSS</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class = "row mt-3 ml-3">
+            <div class = "col-8 offset-2 ">
+                <div class="card mb-3 shadow" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="..." class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">HealthyGenie</h5>
+                          
+                          <p class="card-text">A health advisor app that calculates the calorie intake of the day and returns the amount of mass gained or lost. Have used JavaScript, CSS and HTML to make this project</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class = "row mt-3 ml-3">
+          <div class = "col-8 offset-2 ">
+              <div class="card mb-3 shadow" style="max-width: 540px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Food Delivery Application</h5>
+                        
+                        <p class="card-text">A food delivery application that allows one to add restaurants and order items. The tech-stack used are JavaScript,HTML,CSS and Bootstrap.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
+    <div class = "container-fluid mt-5 p-5 masai">
+      <div class = "container p-5  margin-top">
+        <div class = "row">
+          <div class = "col-4  text-center m-auto">
+            <div class = "coding m-auto">
+              <h3 class = "blue margin">200+</h3>
+            </div>
+            <h3 class = "p-0 m-0 yellow mt-4">Hours</h3>
+            <p class = "p-0 m-0 yellow">of full stack coding</p>
+          </div>
+          <div class = "col-4 m-0  text-center m-auto">
+            <div class = "coding m-auto">
+              <h3 class = "blue margin">300+</h3>
+            </div>
+            <h3 class = "p-0 m-0 blue mt-4">HackerRank</h3>
+            <p class = "p-0 m-0 blue">problems</p>
+          </div>
+          <div class = "col-4 m-0  text-center m-auto">
+            <div class = "coding m-auto">
+              <h3 class = "blue margin">300+</h3>
+            </div>
+            <h3 class = "p-0 m-0 yellow mt-4">Git</h3>
+            <p class = "p-0 m-0 yellow">commits</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
