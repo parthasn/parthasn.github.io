@@ -1,0 +1,176 @@
+div {
+    border: 1px solid black;
+}
+
+#pic_border {
+    border: 5px solid #88B9D7;
+
+}
+
+#name {
+    color: #3C5E9B;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: Open Sans;
+
+}
+
+#prof {
+    color: #707070;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+
+.info_text_locn {
+    color: #A8A8A8;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+
+.info_icon_color {
+    color: #FFC831
+}
+
+.info_text {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+#bg_info {
+    background-image: linear-gradient(to bottom, #06BEB6, #48B1BF);
+}
+
+#proj_bg {
+    /* background-image: linear-gradient(#98F5FD, #CBFDFE, #98F5FD); */
+}
+
+.proj_name {
+    color: #3C5E9B;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Open Sans;
+}
+
+.proj_subtitle {
+    color: #5D86B4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+
+.proj_text {
+    color: #9B9B9B;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+#time_bg {
+    color: #C8F2EE;
+}
+
+.time_ring {
+    color: #06BEB6;
+}
+
+#time_number {
+    color: #5D86B4;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Open Sans;
+}
+
+.time_title {
+    color: #5D86B4;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Open Sans;
+}
+
+.time_text {
+    color: #5D86B4;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+
+
+
+.det {
+    font-weight: bold;
+}
+
+#prof {
+    display: block;
+}
+
+.ww {
+    width: 20%
+}
+
+.bg_hour {
+    background-image: radial-gradient(#D8FEF8 20%, #6FEFFA);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pic {
+    background-image: linear-gradient(rgba(28, 181, 224, 1), rgba(28, 181, 224, 0));
+}
+
+.main {
+    border: 5px solid red;
+}
+
+.circle {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0em, 1em, 1em, 0.5em);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* .disp_md {
+    display: block;
+}
+
+.disp_sm {
+    display: block
+} */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: red;
+    }
+
+    .disp_md {
+        display: block;
+    }
+
+    .disp_sm {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+
+    .disp_md {
+        display: none
+    }
+
+    .disp_sm {
+        display: none
+    }
+}
